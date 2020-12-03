@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace GP
 {
-    public partial class LogIn : System.Web.UI.Page
+    public partial class SignUp1 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Login3_Authenticate(object sender, AuthenticateEventArgs e)
         {
 
         }

@@ -37,6 +37,7 @@
                 <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
             </p>
         </div>
+        <asp:LoginName ID="LoginName1" runat="server" />
     </div>
 
 </asp:Content>

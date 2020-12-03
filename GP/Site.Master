@@ -63,6 +63,9 @@
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>
+                    <asp:LoginName ID="LoginName1" runat="server" />
+                </p>
             </footer>
         </div>
 
