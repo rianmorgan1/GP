@@ -16,7 +16,15 @@ namespace GP
 
         protected void Login3_Authenticate(object sender, AuthenticateEventArgs e)
         {
+            if (RoleServiceManager.IsUserInRole(Login3.UserName, "Doctor"))
+            {
+                Response.Redirect("~/DoctorArea/Doctors.aspx");
+            } //end if
 
+            else if (RoleServiceManager.IsUserInRole(Login3.UserName, "Patient"))
+            {
+                Response.Redirect("~/PatientArea/Patient.aspx");
+            }//end else if
         }
     }
 }
