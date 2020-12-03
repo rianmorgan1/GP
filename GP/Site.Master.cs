@@ -23,5 +23,10 @@ namespace GP
             Response.Redirect("LogIn.aspx");
 
         }
+
+        protected void LoginView1_ViewChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

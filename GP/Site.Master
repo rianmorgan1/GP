@@ -67,7 +67,16 @@
                 <p>&copy; <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>- My ASP.NET Application</p>
                 <p>
                     <asp:LoginName ID="LoginName1" runat="server" FormatString="Logged in as {0}"/>
-                &nbsp;<asp:Button ID="btnLogOut" runat="server" OnClick="btnLogOut_Click" Text="Log Out" />
+                &nbsp;<asp:LoginView ID="LoginView1" runat="server" OnViewChanged="LoginView1_ViewChanged">
+                        <RoleGroups>
+                            <asp:RoleGroup Roles="Admin">
+                                <ContentTemplate>
+                                    <asp:HyperLink ID="Hyperlink1" runat="server" NavigateUrl="~/AdminArea/Admins.aspx">Admin Home Page</asp:HyperLink>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                        </RoleGroups>
+                    </asp:LoginView>
+                    <asp:Button ID="btnLogOut" runat="server" OnClick="btnLogOut_Click" Text="Log Out" />
                 </p>
             </footer>
         </div>

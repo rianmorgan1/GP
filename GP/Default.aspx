@@ -4,8 +4,8 @@
 
     <div class="jumbotron">
         <h1>Welcome to GPme</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+        <p class="lead">Daily Dosage</p>
+        <p>&nbsp;</p>
     </div>
 
     <div class="row">
@@ -14,7 +14,7 @@
             <p>
                 By clicking on the button below you can request an appointment</p>
             <p>
-                &nbsp;<asp:Button ID="Button1" runat="server" Text="Button" />
+                &nbsp;<asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" PostBackUrl="~/LogIn.aspx" />
             </p>
         </div>
         <div class="col-md-4">

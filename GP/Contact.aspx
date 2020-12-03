@@ -13,7 +13,7 @@
     <p>Email: press@GPme.co.uk <br />
   
         Health Management<br />
-        Health House<br />
+        GPme<br />
         Belfast, County Antrim BT7 3AY</p>
         
 

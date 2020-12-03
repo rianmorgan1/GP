@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AdminArea\Admins.aspx" />
     <Content Include="App_Data\University.mdf" />
     <Content Include="App_Data\University_log.ldf">
       <DependentUpon>University.mdf</DependentUpon>
@@ -125,7 +126,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CreateUsersRoles.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DoctorArea\Doctors.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -141,6 +144,7 @@
     <Content Include="Images\articleimage.jpg" />
     <Content Include="LogIn.aspx" />
     <Content Include="LogInSuccessful.aspx" />
+    <Content Include="PatientArea\Patients.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -177,6 +181,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminArea\Admins.aspx.cs">
+      <DependentUpon>Admins.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\Admins.aspx.designer.cs">
+      <DependentUpon>Admins.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -193,12 +204,26 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CreateUsersRoles.aspx.cs">
+      <DependentUpon>CreateUsersRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateUsersRoles.aspx.designer.cs">
+      <DependentUpon>CreateUsersRoles.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorArea\Doctors.aspx.cs">
+      <DependentUpon>Doctors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorArea\Doctors.aspx.designer.cs">
+      <DependentUpon>Doctors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -216,6 +241,13 @@
     </Compile>
     <Compile Include="LogInSuccessful.aspx.designer.cs">
       <DependentUpon>LogInSuccessful.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientArea\Patients.aspx.cs">
+      <DependentUpon>Patients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientArea\Patients.aspx.designer.cs">
+      <DependentUpon>Patients.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignUp.aspx.cs">
