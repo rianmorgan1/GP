@@ -13,8 +13,8 @@ namespace GP
         {
 
         }
-
-        protected void Button1_Click(object sender, EventArgs e)
+        //Look at page 15 of practical 15
+        protected void BtnRegister_Click(object sender, EventArgs e)
         {
             string password, fName, sName, address, sex, telephone, dob;
             int age, patientid, medicationid;
