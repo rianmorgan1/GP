@@ -12,7 +12,7 @@
                             <asp:Label ID="lblPatientID" runat="server" Text="Enter Patient ID:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtPatientId" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtPatientID" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -28,7 +28,7 @@
                             <asp:Label ID="lblFirstName" runat="server" Text="Enter First Name:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtFName" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -36,7 +36,7 @@
                             <asp:Label ID="lblLastName" runat="server" Text="Enter Last Name:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtSecondName" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtSName" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -48,11 +48,19 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td style="height: 22px">
                             <asp:Label ID="lblSex" runat="server" Text="Sex:"></asp:Label>
                         </td>
-                        <td>
+                        <td style="height: 22px">
                             <asp:TextBox ID="txtSex" runat="server"></asp:TextBox>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <asp:Label ID="lblAge" runat="server" Text="Age:"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:TextBox ID="txtAge" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -68,7 +76,7 @@
                             <asp:Label ID="lblDOB" runat="server" Text="DOB:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtDOB" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtDob" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -76,7 +84,7 @@
                             <asp:Label ID="lblMedicationID" runat="server" Text="Enter Medication ID:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtMedicationID" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                 </table>

@@ -24,13 +24,13 @@ namespace GP
         protected global::System.Web.UI.WebControls.Label lblPatientID;
 
         /// <summary>
-        /// txtPatientId control.
+        /// txtPatientID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPatientId;
+        protected global::System.Web.UI.WebControls.TextBox txtPatientID;
 
         /// <summary>
         /// lblPassword control.
@@ -60,13 +60,13 @@ namespace GP
         protected global::System.Web.UI.WebControls.Label lblFirstName;
 
         /// <summary>
-        /// txtFirstName control.
+        /// txtFName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtFirstName;
+        protected global::System.Web.UI.WebControls.TextBox txtFName;
 
         /// <summary>
         /// lblLastName control.
@@ -78,13 +78,13 @@ namespace GP
         protected global::System.Web.UI.WebControls.Label lblLastName;
 
         /// <summary>
-        /// txtSecondName control.
+        /// txtSName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSecondName;
+        protected global::System.Web.UI.WebControls.TextBox txtSName;
 
         /// <summary>
         /// lblAddress control.
@@ -123,6 +123,24 @@ namespace GP
         protected global::System.Web.UI.WebControls.TextBox txtSex;
 
         /// <summary>
+        /// lblAge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAge;
+
+        /// <summary>
+        /// txtAge control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtAge;
+
+        /// <summary>
         /// lblTelephone control.
         /// </summary>
         /// <remarks>
@@ -150,13 +168,13 @@ namespace GP
         protected global::System.Web.UI.WebControls.Label lblDOB;
 
         /// <summary>
-        /// txtDOB control.
+        /// txtDob control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDOB;
+        protected global::System.Web.UI.WebControls.TextBox txtDob;
 
         /// <summary>
         /// lblMedicationID control.
@@ -168,13 +186,13 @@ namespace GP
         protected global::System.Web.UI.WebControls.Label lblMedicationID;
 
         /// <summary>
-        /// TextBox1 control.
+        /// txtMedicationID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txtMedicationID;
 
         /// <summary>
         /// BtnRegister control.

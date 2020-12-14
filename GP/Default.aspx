@@ -22,7 +22,7 @@
             <p>
                 Every year, more than a million people use GPme for care. Our highly specialized experts are deeply experienced in treating rare and complex conditions.</p>
             <p>
-                &nbsp;At Mayo Clinic, every aspect of your care is coordinated and teams of experts work together to provide exactly the care you need. What might take months elsewhere can often be done in days here.</p>
+                &nbsp;At GPme, every aspect of your care is co-ordinated and teams of experts work together to provide exactly the care you need. What might take months elsewhere can often be done in days here.</p>
         </div>
        
     </div>
