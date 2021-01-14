@@ -18,5 +18,10 @@ namespace GP
         {
 
         }
+
+        protected void CreateUserWizard1_CreatedUser1(object sender)
+        {
+
+        }
     }
 }

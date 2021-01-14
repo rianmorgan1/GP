@@ -116,10 +116,6 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AdminArea\Admins.aspx" />
-    <Content Include="App_Data\University.mdf" />
-    <Content Include="App_Data\University_log.ldf">
-      <DependentUpon>University.mdf</DependentUpon>
-    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -287,7 +283,9 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
