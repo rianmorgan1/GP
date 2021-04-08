@@ -7,7 +7,7 @@
 
        <asp:Login ID="Login1" runat="server" CreateUserText="Sign up for a New Account " CreateUserUrl="~/SignUp.aspx" DestinationPageUrl="~/LogInSuccessful.aspx" OnLoggedIn="Login1_LoggedIn">
        </asp:Login>
-       <asp:LoginStatus ID="LoginStatus2" runat="server" OnLoggingOut="LoginStatus2_LoggingOut" />
+      
        <br />
 
    </div>

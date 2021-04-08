@@ -28,23 +28,15 @@
                             <asp:Label ID="lblFirstName" runat="server" Text="Enter First Name:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtFName" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <asp:Label ID="lblLastName" runat="server" Text="Enter Last Name:"></asp:Label>
+                        <td style="height: 22px">
+                            <asp:Label ID="lblLastName" runat="server" Text="Enter Second Name:"></asp:Label>
                         </td>
-                        <td>
-                            <asp:TextBox ID="txtSName" runat="server"></asp:TextBox>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <asp:Label ID="lblAddress" runat="server" Text="Address:"></asp:Label>
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtAddress" runat="server"></asp:TextBox>
+                        <td style="height: 22px">
+                            <asp:TextBox ID="txtSecondName" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -57,18 +49,10 @@
                     </tr>
                     <tr>
                         <td>
-                            <asp:Label ID="lblAge" runat="server" Text="Age:"></asp:Label>
+                            <asp:Label ID="lblEmail" runat="server" Text="Email Address:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtAge" runat="server"></asp:TextBox>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <asp:Label ID="lblTelephone" runat="server" Text="Telephone:"></asp:Label>
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtTelephone" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtEmailAddress" runat="server"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -76,18 +60,10 @@
                             <asp:Label ID="lblDOB" runat="server" Text="DOB:"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="txtDob" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtDOB" runat="server"></asp:TextBox>
                         </td>
                     </tr>
-                    <tr>
-                        <td>
-                            <asp:Label ID="lblMedicationID" runat="server" Text="Enter Medication ID:"></asp:Label>
-                        </td>
-                        <td>
-                            <asp:TextBox ID="txtMedicationID" runat="server"></asp:TextBox>
-                        </td>
-                    </tr>
-                </table>
+                    </table>
             </td>
             <td>&nbsp;</td>
         </tr>

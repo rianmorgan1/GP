@@ -116,7 +116,6 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AdminArea\Admins.aspx" />
-    <Content Include="AdminArea\AdminMedicationEdit.aspx" />
     <Content Include="App_Data\GPmeDatabase.mdf" />
     <Content Include="App_Data\GPmeDatabase_log.ldf">
       <DependentUpon>GPmeDatabase.mdf</DependentUpon>
@@ -192,13 +191,6 @@
     </Compile>
     <Compile Include="AdminArea\Admins.aspx.designer.cs">
       <DependentUpon>Admins.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AdminArea\AdminMedicationEdit.aspx.cs">
-      <DependentUpon>AdminMedicationEdit.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AdminArea\AdminMedicationEdit.aspx.designer.cs">
-      <DependentUpon>AdminMedicationEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">

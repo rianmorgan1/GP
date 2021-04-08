@@ -16,22 +16,19 @@ namespace GP
         {
 
         }
-        //Look at page 15 of practical 15
+        //
         protected void BtnRegister_Click(object sender, EventArgs e)
         {
-            string password, fName, sName, address, sex, telephone, dob;
-            int age, patientid, medicationid;
-            patientid = Convert.ToInt32(txtPatientID);
-            medicationid = Convert.ToInt32(txtMedicationID);
+            string password, firstName, secondName, sex, emailAddress, dob;
+            int patientId;
+            patientId = Convert.ToInt32(txtPatientID);
             password = txtPassword.Text;
-            fName = txtFName.Text;
-            sName = txtSName.Text;
-            address = txtAddress.Text;
+            firstName = txtFirstName.Text;
+            secondName = txtSecondName.Text;
+            emailAddress = txtEmailAddress.Text;
             sex = txtSex.Text;
-            telephone = txtTelephone.Text;
-            dob = txtDob.Text;
-            age = Convert.ToInt32(txtAge.Text);
-            var sqlCS = ConfigurationManager.ConnectionStrings["UniConnString"].ConnectionString;
+            dob = txtDOB.Text;
+            var sqlCS = ConfigurationManager.ConnectionStrings["Database"].ConnectionString;
             try
             {
                 using (var sqlConn = new SqlConnection(sqlCS))
@@ -40,19 +37,20 @@ namespace GP
                     sqlCmd.Connection = sqlConn;
                     sqlCmd.CommandText = "InsertPatient";
                     sqlCmd.CommandType = System.Data.CommandType.StoredProcedure;
-                    sqlCmd.Parameters.AddWithValue("@PatientID", patientid);
-                    sqlCmd.Parameters.AddWithValue("@FirstName", fName);
-                    sqlCmd.Parameters.AddWithValue("@SecondName", sName);
-                    sqlCmd.Parameters.AddWithValue("@Age", age);
-                    sqlCmd.Parameters.AddWithValue("@Address", address);
-                    sqlCmd.Parameters.AddWithValue("@Sex", sex);
-                    sqlCmd.Parameters.AddWithValue("@Telephone", telephone);
+                    sqlCmd.Parameters.AddWithValue("@PATIENTID", patientId);
+                    sqlCmd.Parameters.AddWithValue("@FIRSTNAME", firstName);
+                    sqlCmd.Parameters.AddWithValue("@SECONDNAME", secondName);
+                    sqlCmd.Parameters.AddWithValue("@EMAIL", emailAddress);
+                    sqlCmd.Parameters.AddWithValue("@SEX", sex);
                     sqlCmd.Parameters.AddWithValue("@DOB", dob);
-                    sqlCmd.Parameters.AddWithValue("@MedicationID", medicationid);
                     sqlConn.Open();
                     sqlCmd.ExecuteNonQuery();
                     sqlConn.Close();
-                  
+
+                    Membership.CreateUser(patientId, password);
+                    Roles.AddUserToRole(patientId, "Patient");
+                    Response.Redirect("LogIn.aspx");
+
                 }//end using
             }//end try
             catch
