@@ -52,9 +52,7 @@ namespace GP
                     sqlConn.Open();
                     sqlCmd.ExecuteNonQuery();
                     sqlConn.Close();
-                    Membership.CreateUser(patientid, password);
-                    Roles.AddUserToRole(patientid, "Patient");
-                    Response.Redirect("LogIn.aspx");
+                  
                 }//end using
             }//end try
             catch

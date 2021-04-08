@@ -19,7 +19,7 @@ namespace GP
         {
             try
             {
-                // 3 roles created
+                // 3 roles created admin,doctor,patient
                 Roles.CreateRole("Doctor");
                 Roles.CreateRole("Patient");
                 Roles.CreateRole("Admin");
@@ -33,6 +33,8 @@ namespace GP
                 Roles.AddUserToRole("santos", "Doctor");
                 Roles.AddUserToRole("gunna", "Patient");
                 Roles.AddUserToRole("morgan", "Admin");
+
+                lblResult.Text = "Roles users assigned and created";
             }
             
             catch (Exception ex)

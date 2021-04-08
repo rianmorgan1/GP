@@ -116,6 +116,11 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AdminArea\Admins.aspx" />
+    <Content Include="AdminArea\MedicationEdit.aspx" />
+    <Content Include="App_Data\GPmeDatabase.mdf" />
+    <Content Include="App_Data\GPmeDatabase_log.ldf">
+      <DependentUpon>GPmeDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -140,6 +145,7 @@
     <Content Include="Images\articleimage.jpg" />
     <Content Include="LogIn.aspx" />
     <Content Include="LogInSuccessful.aspx" />
+    <Content Include="Medication.aspx" />
     <Content Include="PatientArea\Patients.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -184,6 +190,13 @@
     </Compile>
     <Compile Include="AdminArea\Admins.aspx.designer.cs">
       <DependentUpon>Admins.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminArea\MedicationEdit.aspx.cs">
+      <DependentUpon>MedicationEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\MedicationEdit.aspx.designer.cs">
+      <DependentUpon>MedicationEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -239,6 +252,13 @@
     <Compile Include="LogInSuccessful.aspx.designer.cs">
       <DependentUpon>LogInSuccessful.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Medication.aspx.cs">
+      <DependentUpon>Medication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medication.aspx.designer.cs">
+      <DependentUpon>Medication.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PatientArea\Patients.aspx.cs">
       <DependentUpon>Patients.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -283,9 +303,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
