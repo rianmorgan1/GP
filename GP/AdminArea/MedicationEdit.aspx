@@ -7,7 +7,7 @@
     <p>
         Click the &quot;edit&quot; to change medication data</p>
     <p>
-        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:GPmeDatabase %>" SelectCommand="SELECT [MEDICATIONNAME], [MEDICATIONID], [DESCRIPTION] FROM [Medication]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Database %>" SelectCommand="SELECT [MEDICATIONNAME], [MEDICATIONID], [DESCRIPTION] FROM [Medication]"></asp:SqlDataSource>
         <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="MEDICATIONID" DataSourceID="SqlDataSource1">
             <Columns>
                 <asp:CommandField ShowSelectButton="True" />

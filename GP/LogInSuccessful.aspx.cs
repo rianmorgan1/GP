@@ -13,5 +13,10 @@ namespace GP
         {
 
         }
+
+        protected void LoginView3_ViewChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
