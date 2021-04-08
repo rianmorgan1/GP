@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MedicationEdit.aspx.cs" Inherits="GP.AdminArea.MedicationEdit" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AdminMedicationEdit.aspx.cs" Inherits="GP.AdminArea.MedicationEdit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         <br />
-        Admin Access only!
+        Admin and doctor access only!
     </p>
     <p>
         Click the &quot;edit&quot; to change medication data</p>

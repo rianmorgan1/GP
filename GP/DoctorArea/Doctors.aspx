@@ -2,6 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     
-    <h1>For Doctors only!!!!!!</h1>
+    <h1>For Doctors and Admins only!!!!!!</h1>
 
 </asp:Content>

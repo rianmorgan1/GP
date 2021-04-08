@@ -15,14 +15,17 @@ namespace GP
 
         }
 
-        protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
+        protected void Login1_LoggedIn(object sender, EventArgs e)
         {
+            if (Roles.IsUserInRole(Login1.UserName, "Doctor"))
+            {
+                Response.Redirect("~/DoctorArea/Doctors.aspx");
+            }//end if - code allows for users to be directed to relevant page
 
-        }
-
-        protected void LoginStatus1_LoggingOut(object sender, LoginCancelEventArgs e)
-        {
-
+            else if (Roles.IsUserInRole(Login1.UserName, "Patient"))
+            {
+                Response.Redirect("~/PatientArea/Patients.aspx");
+            }// end else if - code allows for users to be directed to relevant page
         }
     }
 }

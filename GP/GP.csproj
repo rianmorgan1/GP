@@ -116,7 +116,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AdminArea\Admins.aspx" />
-    <Content Include="AdminArea\MedicationEdit.aspx" />
+    <Content Include="AdminArea\AdminMedicationEdit.aspx" />
     <Content Include="App_Data\GPmeDatabase.mdf" />
     <Content Include="App_Data\GPmeDatabase_log.ldf">
       <DependentUpon>GPmeDatabase.mdf</DependentUpon>
@@ -130,6 +130,7 @@
     <Content Include="CreateUsersRoles.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DoctorArea\Doctors.aspx" />
+    <Content Include="DoctorArea\MedicationEdit.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -143,6 +144,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\articleimage.jpg" />
+    <Content Include="Images\warning.png" />
     <Content Include="LogIn.aspx" />
     <Content Include="LogInSuccessful.aspx" />
     <Content Include="Medication.aspx" />
@@ -191,12 +193,12 @@
     <Compile Include="AdminArea\Admins.aspx.designer.cs">
       <DependentUpon>Admins.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminArea\MedicationEdit.aspx.cs">
-      <DependentUpon>MedicationEdit.aspx</DependentUpon>
+    <Compile Include="AdminArea\AdminMedicationEdit.aspx.cs">
+      <DependentUpon>AdminMedicationEdit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminArea\MedicationEdit.aspx.designer.cs">
-      <DependentUpon>MedicationEdit.aspx</DependentUpon>
+    <Compile Include="AdminArea\AdminMedicationEdit.aspx.designer.cs">
+      <DependentUpon>AdminMedicationEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -234,6 +236,13 @@
     </Compile>
     <Compile Include="DoctorArea\Doctors.aspx.designer.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorArea\MedicationEdit.aspx.cs">
+      <DependentUpon>MedicationEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorArea\MedicationEdit.aspx.designer.cs">
+      <DependentUpon>MedicationEdit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

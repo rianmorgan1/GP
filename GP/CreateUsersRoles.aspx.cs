@@ -15,7 +15,7 @@ namespace GP
 
         }
 
-        protected void btnRun_Click(object sender, EventArgs e)
+        protected void BtnRun_Click(object sender, EventArgs e)
         {
             try
             {
