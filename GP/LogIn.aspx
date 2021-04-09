@@ -5,7 +5,7 @@
     <h1>Please Log in to GPme</h1>
    <div>
 
-       <asp:Login ID="Login1" runat="server" CreateUserText="Sign up for a New Account " CreateUserUrl="~/SignUp.aspx" DestinationPageUrl="~/LogInSuccessful.aspx" OnLoggedIn="Login1_LoggedIn">
+       <asp:Login ID="Login1" runat="server" CreateUserText="Sign up for a New Account " CreateUserUrl="~/Registration.aspx" DestinationPageUrl="~/LogInSuccessful.aspx" OnLoggedIn="Login1_LoggedIn" Height="189px" Width="438px">
        </asp:Login>
       
        <br />
