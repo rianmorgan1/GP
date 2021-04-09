@@ -27,5 +27,10 @@ namespace GP
                 Response.Redirect("~/PatientArea/Patients.aspx");
             }// end else if - code allows for users to be directed to relevant page
         }
+
+        protected void PasswordRecovery1_SendingMail(object sender, MailMessageEventArgs e)
+        {
+
+        }
     }
 }

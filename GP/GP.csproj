@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AdminArea\AddUsersToRoles.aspx" />
     <Content Include="AdminArea\Admins.aspx" />
     <Content Include="App_Data\GPmeDatabase.mdf" />
     <Content Include="App_Data\GPmeDatabase_log.ldf">
@@ -195,6 +196,13 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminArea\AddUsersToRoles.aspx.cs">
+      <DependentUpon>AddUsersToRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\AddUsersToRoles.aspx.designer.cs">
+      <DependentUpon>AddUsersToRoles.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AdminArea\Admins.aspx.cs">
       <DependentUpon>Admins.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

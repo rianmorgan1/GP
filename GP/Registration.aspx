@@ -29,7 +29,7 @@
                             <asp:Label ID="lblPassword" runat="server" Text="Enter Password:"></asp:Label>
                         </td>
                         <td style="height: 22px; width: 137px;">
-                            <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
                         </td>
                         <td style="height: 22px">
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtPassword" ErrorMessage="Please Enter Your Password" ForeColor="Red">*</asp:RequiredFieldValidator>
@@ -39,7 +39,7 @@
                         <td style="height: 22px; width: 287px;">
                             Re-enter Password:</td>
                         <td style="height: 22px; width: 137px;">
-                            <asp:TextBox ID="txtSecondPassword" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtSecondPassword" runat="server" TextMode="Password"></asp:TextBox>
                         </td>
                         <td style="height: 22px">
                             <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="txtPassword" ControlToValidate="txtSecondPassword" ErrorMessage="Passwords do not match" ForeColor="Red">*</asp:CompareValidator>
@@ -83,7 +83,7 @@
                             <asp:Label ID="lblEmail" runat="server" Text="Email Address:"></asp:Label>
                         </td>
                         <td class="modal-sm" style="width: 137px; height: 22px">
-                            <asp:TextBox ID="txtEmailAddress" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtEmailAddress" runat="server" TextMode="Email"></asp:TextBox>
                         </td>
                         <td style="height: 22px">
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator8" runat="server" ControlToValidate="txtEmailAddress" ErrorMessage="Please Enter Your Email Address" ForeColor="Red">*</asp:RequiredFieldValidator>
@@ -95,7 +95,7 @@
                             <asp:Label ID="lblDOB" runat="server" Text="DOB:"></asp:Label>
                         </td>
                         <td class="modal-sm" style="width: 137px">
-                            <asp:TextBox ID="txtDOB" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtDOB" runat="server" TextMode="Date"></asp:TextBox>
                         </td>
                         <td>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtDOB" ErrorMessage="Please Enter Your DOB" ForeColor="Red">*</asp:RequiredFieldValidator>
