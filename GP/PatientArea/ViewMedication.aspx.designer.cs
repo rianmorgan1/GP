@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GP.AdminArea
+namespace GP.PatientArea
 {
 
 
-    public partial class MedicationEdit
+    public partial class ViewMedication
     {
 
         /// <summary>
