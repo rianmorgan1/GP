@@ -6,6 +6,10 @@
     <table class="nav-justified">
         <tr>
             <td>
+
+
+
+
                 <table class="nav-justified">
                     <tr>
                         <td>
@@ -24,10 +28,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>
+                        <td style="height: 22px">
                             <asp:Label ID="lblFirstName" runat="server" Text="Enter First Name:"></asp:Label>
                         </td>
-                        <td>
+                        <td style="height: 22px">
                             <asp:TextBox ID="txtFirstName" runat="server"></asp:TextBox>
                         </td>
                     </tr>
@@ -69,7 +73,7 @@
         </tr>
         <tr>
             <td>
-                <asp:Button ID="BtnRegister" runat="server" OnClick="Button1_Click" Text="Register" />
+                <asp:Button ID="BtnRegister" runat="server" OnClick="BtnRegister_Click" Text="Register" />
                 <asp:Label ID="StatusLabel" runat="server"></asp:Label>
             </td>
             <td>&nbsp;</td>

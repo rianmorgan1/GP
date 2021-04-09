@@ -19,15 +19,16 @@ namespace GP
         //
         protected void BtnRegister_Click(object sender, EventArgs e)
         {
-            string password, firstName, secondName, sex, emailAddress, dob;
+            string password, firstName, secondName, sex, emailAddress;
             int patientId;
-            patientId = Convert.ToInt32(txtPatientID);
+            DateTime dob;
+            patientId = Int32.Parse(txtPatientID.Text);
             password = txtPassword.Text;
             firstName = txtFirstName.Text;
             secondName = txtSecondName.Text;
             emailAddress = txtEmailAddress.Text;
             sex = txtSex.Text;
-            dob = txtDOB.Text;
+            dob = DateTime.Parse(txtDOB.Text);
             var sqlCS = ConfigurationManager.ConnectionStrings["Database"].ConnectionString;
             try
             {
@@ -47,15 +48,15 @@ namespace GP
                     sqlCmd.ExecuteNonQuery();
                     sqlConn.Close();
 
-                    Membership.CreateUser(patientId, password);
-                    Roles.AddUserToRole(patientId, "Patient");
+                    Membership.CreateUser(patientId.ToString(), password);
+                    Roles.AddUserToRole(patientId.ToString(), "Patient");
                     Response.Redirect("LogIn.aspx");
 
                 }//end using
             }//end try
-            catch
+            catch(Exception ex)
             {
-                StatusLabel.Text = "A run-time error has occurred";
+                StatusLabel.Text = ex.Message;
             }//end catch 
         }
     }
