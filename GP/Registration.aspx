@@ -1,9 +1,17 @@
 ﻿<%@ Page Title="Registration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="GP.Registration" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
+        <h2><%: Title %></h2>
+
+
+    <strong>
+    <br />
+    Here you can register as a patient
+    <br />
 
 
     <br />
+    </strong>
     <table class="nav-justified">
         <tr>
             <td style="width: 709px">
@@ -110,6 +118,7 @@
                 <br />
                 <asp:Button ID="BtnRegister" runat="server" OnClick="BtnRegister_Click" Text="Register" />
                 <asp:Label ID="StatusLabel" runat="server"></asp:Label>
+                <br />
                 <br />
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
             </td>

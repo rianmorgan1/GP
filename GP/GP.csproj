@@ -143,6 +143,7 @@
     <Content Include="DoctorArea\MedicationEdit.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="ForgotPassword.aspx" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -157,7 +158,6 @@
     <Content Include="Images\warning.png" />
     <Content Include="LogIn.aspx" />
     <Content Include="LogInSuccessful.aspx" />
-    <Content Include="Medication.aspx" />
     <Content Include="PatientArea\Patients.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -188,7 +188,6 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="SignUp.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -255,6 +254,13 @@
     <Compile Include="DoctorArea\MedicationEdit.aspx.designer.cs">
       <DependentUpon>MedicationEdit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -272,13 +278,6 @@
     <Compile Include="LogInSuccessful.aspx.designer.cs">
       <DependentUpon>LogInSuccessful.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Medication.aspx.cs">
-      <DependentUpon>Medication.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Medication.aspx.designer.cs">
-      <DependentUpon>Medication.aspx</DependentUpon>
-    </Compile>
     <Compile Include="PatientArea\Patients.aspx.cs">
       <DependentUpon>Patients.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -294,13 +293,6 @@
     </Compile>
     <Compile Include="Registration.aspx.designer.cs">
       <DependentUpon>Registration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SignUp.aspx.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SignUp.aspx.designer.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
