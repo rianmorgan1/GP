@@ -25,7 +25,7 @@
                             <asp:Label ID="lblPatientID" runat="server" Text="Enter Patient ID: (username)"></asp:Label>
                         </td>
                         <td class="modal-sm" style="width: 137px; height: 22px">
-                            <asp:TextBox ID="txtPatientID" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="txtPatientID" runat="server" Width="128px"></asp:TextBox>
                         </td>
                         <td style="height: 22px">
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtPatientID" ErrorMessage="Please Enter Your Patient ID" ForeColor="Red">*</asp:RequiredFieldValidator>

@@ -3,6 +3,35 @@
         <h2><%: Title %></h2>
 
     
-    <h1>For Doctors and Admins only!!!!!!</h1>
+    <h1>For Doctors and Admins only</h1>
+<p>Below are links to multiple pages, click on a button to select which page you want to travel to.</p>
+        <table class="nav-justified">
+            <tr>
+                <td class="modal-lg" style="width: 374px">Here you can Create and Edit appointments:</td>
+                <td>
+                    <asp:Button ID="BtnDoctorAppointments" runat="server" OnClick="BtnDoctorAppointments_Click" Text="Click" />
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 374px">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 374px">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="modal-lg" style="width: 374px">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
 
 </asp:Content>

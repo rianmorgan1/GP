@@ -127,6 +127,7 @@
     <Content Include="About.aspx" />
     <Content Include="AdminArea\AddUsersToRoles.aspx" />
     <Content Include="AdminArea\Admins.aspx" />
+    <Content Include="AdminArea\DeleteUsers.aspx" />
     <Content Include="App_Data\GPmeDatabase.mdf" />
     <Content Include="App_Data\GPmeDatabase_log.ldf">
       <DependentUpon>GPmeDatabase.mdf</DependentUpon>
@@ -139,6 +140,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="CreateUsersRoles.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="DoctorArea\DoctorAppointments.aspx" />
     <Content Include="DoctorArea\Doctors.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -154,10 +156,14 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\articleimage.jpg" />
+    <Content Include="Images\GPmeLogo.jpg" />
     <Content Include="Images\warning.png" />
     <Content Include="LogIn.aspx" />
     <Content Include="LogInSuccessful.aspx" />
+    <Content Include="PatientArea\CreateAppointmentPatient.aspx" />
     <Content Include="PatientArea\Patients.aspx" />
+    <Content Include="PatientArea\Reminders.aspx" />
+    <Content Include="PatientArea\Track.aspx" />
     <Content Include="PatientArea\ViewMedication.aspx" />
     <Content Include="Registration.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -209,6 +215,13 @@
     <Compile Include="AdminArea\Admins.aspx.designer.cs">
       <DependentUpon>Admins.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminArea\DeleteUsers.aspx.cs">
+      <DependentUpon>DeleteUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminArea\DeleteUsers.aspx.designer.cs">
+      <DependentUpon>DeleteUsers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -239,6 +252,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorArea\DoctorAppointments.aspx.cs">
+      <DependentUpon>DoctorAppointments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorArea\DoctorAppointments.aspx.designer.cs">
+      <DependentUpon>DoctorAppointments.aspx</DependentUpon>
     </Compile>
     <Compile Include="DoctorArea\Doctors.aspx.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
@@ -271,6 +291,13 @@
     <Compile Include="LogInSuccessful.aspx.designer.cs">
       <DependentUpon>LogInSuccessful.aspx</DependentUpon>
     </Compile>
+    <Compile Include="PatientArea\CreateAppointmentPatient.aspx.cs">
+      <DependentUpon>CreateAppointmentPatient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientArea\CreateAppointmentPatient.aspx.designer.cs">
+      <DependentUpon>CreateAppointmentPatient.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PatientArea\Patients.aspx.cs">
       <DependentUpon>Patients.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -279,6 +306,20 @@
       <DependentUpon>Patients.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs" />
+    <Compile Include="PatientArea\Reminders.aspx.cs">
+      <DependentUpon>Reminders.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientArea\Reminders.aspx.designer.cs">
+      <DependentUpon>Reminders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientArea\Track.aspx.cs">
+      <DependentUpon>Track.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientArea\Track.aspx.designer.cs">
+      <DependentUpon>Track.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PatientArea\ViewMedication.aspx.cs">
       <DependentUpon>ViewMedication.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

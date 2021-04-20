@@ -13,5 +13,25 @@ namespace GP.PatientArea
         {
 
         }
+
+        protected void BtnTrack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Track.aspx");
+        }
+
+        protected void BtnAppointments_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CreateAppointmentPatient.aspx");
+        }
+
+        protected void BtnMedicationProfile_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ViewMedication.aspx");
+        }
+
+        protected void BtnReminders_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Reminders.aspx");
+        }
     }
 }

@@ -13,5 +13,15 @@ namespace GP.AdminArea
         {
 
         }
+
+        protected void BtnAddUsers_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("AddUsersToRoles.aspx");
+        }
+
+        protected void BtnDeleteUsers_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("DeleteUsers.aspx");
+        }
     }
 }

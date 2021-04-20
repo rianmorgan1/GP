@@ -11,43 +11,61 @@ namespace GP.PatientArea
 {
 
 
-    public partial class Patients
+    public partial class CreateAppointmentPatient
     {
 
         /// <summary>
-        /// BtnTrack control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnTrack;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// BtnAppointments control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnAppointments;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// BtnMedicationProfile control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnMedicationProfile;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// BtnReminders control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnReminders;
+        protected global::System.Web.UI.WebControls.Label Label4;
+
+        /// <summary>
+        /// Label5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
+        /// Label6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label6;
     }
 }
