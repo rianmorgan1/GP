@@ -22,7 +22,7 @@
                 <table class="nav-justified" style="width: 98%">
                     <tr>
                         <td class="modal-sm" style="width: 287px; height: 22px">
-                            <asp:Label ID="lblPatientID" runat="server" Text="Enter Patient ID: (username)"></asp:Label>
+                            <asp:Label ID="lblPatientID" runat="server" Text="Enter ID: (username)"></asp:Label>
                         </td>
                         <td class="modal-sm" style="width: 137px; height: 22px">
                             <asp:TextBox ID="txtPatientID" runat="server" Width="128px"></asp:TextBox>
