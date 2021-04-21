@@ -4,14 +4,7 @@
 
     <div class="jumbotron">
         <h1>Welcome to GPme</h1>
-        <p class="lead">Daily Dosage<table class="nav-justified" style="width: 40%; margin-left: 698px">
-            <tr>
-                <td class="modal-sm" style="width: 73px">
-                    <img alt="gpme" src="Images/GPmeLogo.jpg" style="width: 198px; height: 198px" /></td>
-                <td>&nbsp;</td>
-            </tr>
-            </table>
-        </p>
+        <p class="lead">Daily Dosage</p>
         <p>&nbsp;</p>
     </div>
 
