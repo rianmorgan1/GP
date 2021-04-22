@@ -6,7 +6,7 @@
     <p>&nbsp;<strong>Here you can login</strong></p>
    <div>
 
-       <asp:Login ID="Login1" runat="server" CreateUserText="Sign up for a New Account " CreateUserUrl="~/Registration.aspx" DestinationPageUrl="~/LogInSuccessful.aspx" OnLoggedIn="Login1_LoggedIn" Height="189px" Width="446px">
+       <asp:Login ID="Login1" runat="server" CreateUserText="Sign up for a New Account " CreateUserUrl="~/Registration.aspx" DestinationPageUrl="~/LogInSuccessful.aspx" OnLoggedIn="Login1_LoggedIn" Height="189px" Width="446px" PasswordRecoveryText="Forgot Password?" PasswordRecoveryUrl="~/ForgotPassword.aspx">
        </asp:Login>
       
        <br />

@@ -6,8 +6,10 @@
     <p>
         <strong>H</strong><span style="font-weight: bold">ere you can recover your password</span></p>
     <p>
-        <asp:PasswordRecovery ID="PasswordRecovery1" runat="server">
-        </asp:PasswordRecovery>
+        <asp:ChangePassword ID="ChangePassword2" runat="server" ContinueDestinationPageUrl="~/Default.aspx" DisplayUserName="True" MembershipProvider="DefaultMembershipProvider">
+            <MailDefinition BodyFileName="~/EmailTemplates/PasswordRecovery.txt" CC="morgan-r18@ulster.ac.uk" From="noreply@gpme.co.uk" Subject="Password reset">
+            </MailDefinition>
+        </asp:ChangePassword>
     </p>
     <p>
         &nbsp;</p>
