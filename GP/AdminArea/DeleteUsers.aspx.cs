@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.Security;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace GP.AdminArea
 {
@@ -12,6 +15,19 @@ namespace GP.AdminArea
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Membership.DeleteUser(User.Identity.Name, DeleteRelatedData.Checked);
+
+            FormsAuthentication.SignOut();
+            FormsAuthentication.RedirectToLoginPage();
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
         }
     }
 }
