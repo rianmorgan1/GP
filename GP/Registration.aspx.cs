@@ -50,14 +50,14 @@ namespace GP
 
                     Membership.CreateUser(patientId.ToString(), password);
                     Roles.AddUserToRole(patientId.ToString(), "Patient");
-                    StatusLabel.Text = "Your new account has been created, you can now go back to the login page";
+                    lblStatus.Text = "Your new account has been created, you can now go back to the login page";
 
                 }//end using
             }//end try
             catch(Exception ex)
             {
-                StatusLabel.Text = ex.Message;
-            }//end catch 
+                lblStatus.Text = ex.Message;
+            }//end catch helped developer solving code issues
         }
     }
 }

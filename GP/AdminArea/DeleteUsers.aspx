@@ -27,7 +27,7 @@
             </tr>
             <tr>
                 <td class="modal-sm" style="width: 316px">
-                    <asp:Label ID="LblMessage" runat="server"></asp:Label>
+                    <asp:Label ID="LblMessage" runat="server" ForeColor="Red"></asp:Label>
                 </td>
                 <td class="modal-sm" style="width: 218px">
                       <br />

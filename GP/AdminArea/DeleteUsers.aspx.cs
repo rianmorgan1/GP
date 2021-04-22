@@ -23,6 +23,7 @@ namespace GP.AdminArea
 
             FormsAuthentication.SignOut();
             FormsAuthentication.RedirectToLoginPage();
+            LblMessage.Text = "All user data has been removed from the database";
         }
 
         protected void CancelButton_Click(object sender, EventArgs e)

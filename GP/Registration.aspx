@@ -117,7 +117,7 @@
             <td style="width: 709px">
                 <br />
                 <asp:Button ID="BtnRegister" runat="server" OnClick="BtnRegister_Click" Text="Register" />
-                <asp:Label ID="StatusLabel" runat="server" ForeColor="Red"></asp:Label>
+                <asp:Label ID="lblStatus" runat="server" ForeColor="Red"></asp:Label>
                 <br />
                 <br />
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />
