@@ -17,7 +17,7 @@ namespace GP.AdminArea
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void YesButton_Click(object sender, EventArgs e)
         {
             Membership.DeleteUser(User.Identity.Name, DeleteRelatedData.Checked);
 
@@ -25,7 +25,7 @@ namespace GP.AdminArea
             FormsAuthentication.RedirectToLoginPage();
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
+        protected void CancelButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("default.aspx");
         }

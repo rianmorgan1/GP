@@ -15,13 +15,13 @@ namespace GP.AdminArea
     {
 
         /// <summary>
-        /// YesButton control.
+        /// DeleteRelatedData control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button YesButton;
+        protected global::System.Web.UI.WebControls.CheckBox DeleteRelatedData;
 
         /// <summary>
         /// CancelButton control.
@@ -33,30 +33,21 @@ namespace GP.AdminArea
         protected global::System.Web.UI.WebControls.Button CancelButton;
 
         /// <summary>
-        /// Button3 control.
+        /// YesButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button YesButton;
 
         /// <summary>
-        /// Msg control.
+        /// LblMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Msg;
-
-        /// <summary>
-        /// DeleteRelatedData control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox DeleteRelatedData;
+        protected global::System.Web.UI.WebControls.Label LblMessage;
     }
 }

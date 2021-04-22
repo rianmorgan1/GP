@@ -50,7 +50,7 @@ namespace GP
 
                     Membership.CreateUser(patientId.ToString(), password);
                     Roles.AddUserToRole(patientId.ToString(), "Patient");
-                    Response.Redirect("LogIn.aspx");
+                    StatusLabel.Text = "Your new account has been created, you can now go back to the login page";
 
                 }//end using
             }//end try
