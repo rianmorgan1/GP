@@ -33,5 +33,10 @@ namespace GP.PatientArea
         {
             Response.Redirect("Reminders.aspx");
         }
+
+        protected void BtnViewStats_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TrackingStats.aspx");
+        }
     }
 }

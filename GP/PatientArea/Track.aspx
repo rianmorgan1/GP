@@ -48,8 +48,7 @@
                 <asp:Button ID="BtnInitiateTrack" runat="server" OnClick="BtnInitiateTrack_Click" Text="Track" />
             </td>
             <td>
-                <asp:Button ID="BtnViewTrack" runat="server" OnClick="BtnViewTrack_Click1" Text="View Stats" />
-            </td>
+                &nbsp;</td>
         </tr>
         <tr>
             <td class="modal-sm" style="width: 213px">

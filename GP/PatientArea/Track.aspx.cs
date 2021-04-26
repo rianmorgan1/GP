@@ -16,6 +16,10 @@ namespace GP.PatientArea
         {
 
         }
+        protected void BtnViewTrack_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("TrackingStats.aspx");
+        }
 
         protected void BtnInitiateTrack_Click(object sender, EventArgs e)
         {
@@ -56,14 +60,6 @@ namespace GP.PatientArea
             }//end catch used to help fix coding issues
         }
 
-        protected void btnViewTrack_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("TrackingStats.aspx");
-        }
 
-        protected void BtnViewTrack_Click1(object sender, EventArgs e)
-        {
-            Response.Redirect("TrackingStats.aspx");
-        }
     }
 }

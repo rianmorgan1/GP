@@ -24,6 +24,15 @@ namespace GP.PatientArea
         protected global::System.Web.UI.WebControls.Button BtnTrack;
 
         /// <summary>
+        /// BtnViewStats control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnViewStats;
+
+        /// <summary>
         /// BtnAppointments control.
         /// </summary>
         /// <remarks>
