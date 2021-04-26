@@ -42,13 +42,28 @@ namespace GP.PatientArea
                     sqlConn.Open();
                     sqlCmd.ExecuteNonQuery();
                     sqlConn.Close();
+                    lblStatus.Text = "Tracking Information Stored";
+                    txtDate.Text = "";
+                    txtHeight.Text = "";
+                    txtPatientID.Text = "";
+                    txtWeight.Text = "";
                 }
 
             }
             catch (Exception ex)
             {
-                StatusLabel.Text = ex.Message;
-            }//end catch 
+                lblStatus.Text = ex.Message;
+            }//end catch used to help fix coding issues
+        }
+
+        protected void btnViewTrack_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("TrackingStats.aspx");
+        }
+
+        protected void BtnViewTrack_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("TrackingStats.aspx");
         }
     }
 }

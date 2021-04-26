@@ -51,7 +51,14 @@ namespace GP
                     Membership.CreateUser(patientId.ToString(), password);
                     Roles.AddUserToRole(patientId.ToString(), "Patient");
                     lblStatus.Text = "Your new account has been created, you can now go back to the login page";
-
+                    txtDOB.Text = "";
+                    txtEmailAddress.Text = "";
+                    txtFirstName.Text = "";
+                    txtPassword.Text = "";
+                    txtPatientID.Text = "";
+                    txtSecondName.Text = "";
+                    txtSecondPassword.Text = "";
+                    txtSex.Text = "";
                 }//end using
             }//end try
             catch(Exception ex)
