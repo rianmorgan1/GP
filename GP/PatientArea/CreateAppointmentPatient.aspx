@@ -15,7 +15,6 @@
             </td>
             <td style="height: 22px">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtID" ErrorMessage="Please Enter Your Patient ID" ForeColor="Red">*</asp:RequiredFieldValidator>
-                <asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtID" ErrorMessage="Please Enter an ID between 1-5000" ForeColor="Red" MaximumValue="5000" MinimumValue="1">*</asp:RangeValidator>
             </td>
         </tr>
         <tr>
