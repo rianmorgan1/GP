@@ -56,7 +56,7 @@
             </td>
             <td style="width: 813px">
                 <br />
-                <asp:Label ID="lblStatus" runat="server" ForeColor="Red"></asp:Label>
+                <asp:Label ID="lblStatus" runat="server" ForeColor="Green"></asp:Label>
             </td>
             <td>
                 &nbsp;</td>

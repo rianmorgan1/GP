@@ -16,7 +16,7 @@
         </td>
     </tr>
     <tr>
-        <td class="modal-sm" style="width: 379px; height: 26px;">Click here to Create or Edit your Appointments:</td>
+        <td class="modal-sm" style="width: 379px; height: 26px;">Click here to make an Appointment Booking:</td>
         <td style="height: 26px; width: 49px;">
             <asp:Button ID="BtnAppointments" runat="server" Text="Click" OnClick="BtnAppointments_Click" Width="54px" />
         </td>

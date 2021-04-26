@@ -103,7 +103,7 @@
                             <asp:Label ID="lblDOB" runat="server" Text="DOB:"></asp:Label>
                         </td>
                         <td class="modal-sm" style="width: 137px">
-                            <asp:TextBox ID="txtDOB" runat="server" TextMode="Date"></asp:TextBox>
+                            <asp:TextBox ID="txtDOB" runat="server" TextMode="Date" ></asp:TextBox>
                         </td>
                         <td>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="txtDOB" ErrorMessage="Please Enter Your DOB" ForeColor="Red">*</asp:RequiredFieldValidator>
@@ -117,7 +117,7 @@
             <td style="width: 709px">
                 <br />
                 <asp:Button ID="BtnRegister" runat="server" OnClick="BtnRegister_Click" Text="Register" />
-                <asp:Label ID="lblStatus" runat="server" ForeColor="Red"></asp:Label>
+                <asp:Label ID="lblStatus" runat="server" ForeColor="Green"></asp:Label>
                 <br />
                 <br />
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" ForeColor="Red" />

@@ -13,5 +13,14 @@ namespace GP.DoctorArea
         {
 
         }
+
+        protected void lblInsert_Click(object sender, EventArgs e)
+        {
+            SqlDataSource1.InsertParameters["PATIENTID"].DefaultValue = ((TextBox)GridView1.FooterRow.FindControl("txtPatientId")).Text;
+            SqlDataSource1.InsertParameters["DATE"].DefaultValue = ((TextBox)GridView1.FooterRow.FindControl("txtDate")).Text;
+            SqlDataSource1.InsertParameters["TIME"].DefaultValue = ((TextBox)GridView1.FooterRow.FindControl("txtTime")).Text;
+            SqlDataSource1.InsertParameters["DOCTORID"].DefaultValue = ((DropDownList)GridView1.FooterRow.FindControl("ddlDoctorId")).SelectedValue;
+            SqlDataSource1.Insert();
+        }
     }
 }
