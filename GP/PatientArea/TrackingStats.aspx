@@ -2,8 +2,9 @@
 <%@ Register assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" namespace="System.Web.UI.DataVisualization.Charting" tagprefix="asp" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
+        <strong>
         <br />
-        Here you can view and keep track of your height, weight and blood statistics</p>
+        Here you can view and keep track of your height, weight and blood statistics</strong></p>
     <table class="nav-justified">
         <tr>
             <td>

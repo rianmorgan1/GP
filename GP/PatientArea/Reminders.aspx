@@ -64,6 +64,56 @@
                         <asp:Parameter Name="MEDICATIONREMINDERID" Type="Int32" />
                     </UpdateParameters>
                 </asp:SqlDataSource>
+                <br />
+                <asp:Label ID="Label1" runat="server"></asp:Label>
+                <table class="nav-justified">
+                    <tr>
+                        <td class="modal-sm" style="width: 291px">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="modal-sm" style="width: 291px">
+                            <asp:Label ID="lblTime" runat="server" Font-Size="Larger" Text="Time"></asp:Label>
+                            <asp:TextBox ID="TextBox1" runat="server" TextMode="Time"></asp:TextBox>
+                            <asp:DropDownList ID="DropDownList1" runat="server" Font-Size="Large">
+                                <asp:ListItem>AM</asp:ListItem>
+                                <asp:ListItem>PM</asp:ListItem>
+                            </asp:DropDownList>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="modal-sm" style="width: 291px">
+                            <asp:Label ID="Label3" runat="server" Text="Message:"></asp:Label>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="modal-sm" style="width: 291px">
+                            <asp:TextBox ID="TextBox2" runat="server" Height="155px" TextMode="MultiLine" Width="275px"></asp:TextBox>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="modal-sm" style="width: 291px">
+                            <asp:Button ID="Button1" runat="server" Text="Start" />
+                        </td>
+                        <td>
+                            <asp:Button ID="Button3" runat="server" EnableTheming="True" Text="Button" Width="20px" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="modal-sm" style="width: 291px">
+                            <asp:Button ID="Button2" runat="server" Text="Stop" />
+                        </td>
+                        <td>
+                            <asp:Timer ID="Timer1" runat="server" OnTick="Timer1_Tick">
+                            </asp:Timer>
+                            <asp:Timer ID="Timer2" runat="server" Enabled="False">
+                            </asp:Timer>
+                        </td>
+                    </tr>
+                </table>
             </td>
             <td>&nbsp;</td>
         </tr>

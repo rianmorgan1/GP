@@ -158,7 +158,11 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Images\articleimage.jpg" />
+    <Content Include="Images\contact-us-banner1.jpg" />
+    <Content Include="Images\Doctors-Finance-Body-1-scaled.jpg" />
     <Content Include="Images\GPmeLogo.jpg" />
+    <Content Include="Images\login.jpg" />
+    <Content Include="Images\NHS-staff-wellbeing.jpg" />
     <Content Include="Images\warning.png" />
     <Content Include="LogIn.aspx" />
     <Content Include="LogInSuccessful.aspx" />

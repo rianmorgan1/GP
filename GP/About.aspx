@@ -10,4 +10,19 @@
         With increasing pressure, comes an increase in problems with the current system. 
         The GPme web application will focus on solving relating to lengthy waiting times, medication adherence, appointment attendance and the general awareness of self-care and health.
         This will bring benefits to both the GP branches who promote the application as well as the patients who wish to use it due to the fact that public traffic will decrease leading to a less stressful environment and patients will be more in tune with their own conditions.  </p>
-    <img src="Images/articleimage.jpg" /></asp:Content>
+    <table class="nav-justified">
+        <tr>
+            <td style="width: 515px">
+    <img src="Images/articleimage.jpg" style="width: 491px; height: 278px" /></td>
+            <td style="width: 521px">
+                <img alt="NHS" src="Images/NHS-staff-wellbeing.jpg" style="width: 491px; height: 278px" /></td>
+            <td>
+                <img alt="Doctor" src="Images/Doctors-Finance-Body-1-scaled.jpg" style="width: 491px; height: 278px" /></td>
+        </tr>
+        <tr>
+            <td style="width: 515px">&nbsp;</td>
+            <td style="width: 521px">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</asp:Content>

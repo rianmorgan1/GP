@@ -3,8 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Welcome to GPme</h1>
-        <p class="lead">Daily Dosage</p>
+        <h1>
+            <img alt="gpme" src="Images/GPmeLogo.jpg" style="width: 198px; height: 198px" />&nbsp;&nbsp;&nbsp;&nbsp; Welcome to GPme</h1>
+        <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Daily Dosage</p>
         <p>&nbsp;</p>
     </div>
 
