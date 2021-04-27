@@ -32,7 +32,7 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="modal-sm" style="width: 379px; height: 26px;">Click here to View Medication and Appointment Reminders:</td>
+        <td class="modal-sm" style="width: 379px; height: 26px;">Click here to View Medication Reminders:</td>
         <td style="height: 26px; width: 49px;">
             <asp:Button ID="BtnReminders" runat="server" OnClick="BtnReminders_Click" Text="Click" Width="54px" />
         </td>
