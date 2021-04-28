@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="Registration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="GP.Registration" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
-        <h2><%: Title %></h2>
+        <h2><%: Title %>
+            <img alt="reg" src="Images/df8370f1292163c519d35ad66746eefa.png" style="width: 298px; height: 279px" /></h2>
 
 
     <strong>

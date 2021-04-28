@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         <br />
-    </p>
+        <img alt="lock" src="Images/250130-200.png" style="width: 312px; height: 257px" /></p>
     <p>
         <strong>H</strong><span style="font-weight: bold">ere you can change your password</span></p>
     <p>

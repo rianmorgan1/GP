@@ -157,8 +157,13 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Images\23420-200.png" />
+    <Content Include="Images\250130-200.png" />
+    <Content Include="Images\848688-200.png" />
+    <Content Include="Images\admin.png" />
     <Content Include="Images\articleimage.jpg" />
     <Content Include="Images\contact-us-banner1.jpg" />
+    <Content Include="Images\df8370f1292163c519d35ad66746eefa.png" />
     <Content Include="Images\Doctors-Finance-Body-1-scaled.jpg" />
     <Content Include="Images\GPmeLogo.jpg" />
     <Content Include="Images\login.jpg" />

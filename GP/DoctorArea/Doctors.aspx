@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Doctor Area" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Doctors.aspx.cs" Inherits="GP.DoctorArea.Doctors" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-        <h2><%: Title %></h2>
+        <h2><%: Title %>
+            <img alt="doc" src="../Images/23420-200.png" style="width: 214px; height: 223px" /></h2>
 
     
     <h1>For Doctors and Admins only</h1>

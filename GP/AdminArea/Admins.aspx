@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Admin Area" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Admins.aspx.cs" Inherits="GP.AdminArea.Admins" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-        <h2><%: Title %></h2>
+        <h2><%: Title %>
+            <img alt="admin" src="../Images/admin.png" style="width: 287px; height: 251px" /></h2>
 
     <h1>For Admins only</h1>
 &nbsp;<p>Warning: This page is for admin access only!</p>
